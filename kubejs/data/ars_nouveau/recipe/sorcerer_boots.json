@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "pedestalItems": [
+    {
+      "item": "kubejs:magicka_cloth"
+    },
+    {
+      "item": "kubejs:magicka_cloth"
+    },
+    {
+      "item": "kubejs:magicka_cloth"
+    },
+    {
+      "item": "kubejs:magicka_cloth"
+    }
+  ],
+  "reagent": {
+    "item": "minecraft:golden_boots"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:sorcerer_boots"
+  },
+  "sourceCost": 0
+}

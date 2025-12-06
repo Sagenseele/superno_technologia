@@ -1,0 +1,39 @@
+{
+	id: "61F5597DF86B7695"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 16
+			id: "252BACE4319F9896"
+			item: {
+				count: 1
+				id: "minecraft:rotten_flesh"
+			}
+		}
+		{
+			count: 16
+			id: "56CDC8456D95CFBE"
+			item: {
+				count: 1
+				id: "minecraft:bone"
+			}
+		}
+		{
+			count: 16
+			id: "0D6434B28945FD66"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+		}
+		{
+			count: 16
+			id: "166C3C6A67D91494"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+		}
+	]
+}

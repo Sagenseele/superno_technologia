@@ -1,0 +1,96 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4_electrifying"
+	group: "01AFE2F0BF630821"
+	icon: {
+		id: "modern_industrialization:electronic_circuit"
+	}
+	id: "46242FE0F92814ED"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0058401D5C650F60"
+			tasks: [{
+				id: "2171FC19B7248DCD"
+				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "03C0745990AA4BA5"
+			tasks: [{
+				id: "173396D6358682AE"
+				item: { count: 1, id: "modern_industrialization:aluminum_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03C0745990AA4BA5"]
+			id: "30C662460531A1F5"
+			tasks: [{
+				id: "48413356C5114542"
+				item: { count: 1, id: "modern_industrialization:electronic_circuit_board" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "793387BCF24A1198"
+			tasks: [{
+				id: "3A8219D63E924995"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "06C1063B23BBC356"
+			tasks: [{
+				id: "707D673D21A43F21"
+				item: { count: 1, id: "modern_industrialization:electrum_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["202EABBC930E64DC"]
+			id: "0731FD145431120E"
+			tasks: [{
+				id: "03853871F7532414"
+				item: { count: 1, id: "modern_industrialization:electric_blast_furnace" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "2034135A0FC97A5F"
+			tasks: [{
+				id: "586AA1BBDC655200"
+				item: { count: 1, id: "modern_industrialization:cupronickel_ingot" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "202EABBC930E64DC"
+			tasks: [{
+				id: "2342E4A006244FCF"
+				item: { count: 1, id: "modern_industrialization:battery_alloy_ingot" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	id: "73ABC24C6CCF6061"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 16
+			id: "507915395F7EA7A8"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+		}
+		{
+			count: 16
+			id: "0BD68E22B235F474"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+	]
+}

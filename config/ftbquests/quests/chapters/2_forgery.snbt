@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2_forgery"
+	group: "01AFE2F0BF630821"
+	icon: {
+		id: "productivemetalworks:black_foundry_controller"
+	}
+	id: "6D999807164B4891"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0F52569E0FE8A28C"
+			tasks: [{
+				id: "298364EB04F9B4E6"
+				item: { count: 1, id: "productivemetalworks:black_foundry_controller" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23984671F471C732"]
+			id: "173FE9619A2462AD"
+			tasks: [{
+				id: "55B4814E600E8E3F"
+				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F52569E0FE8A28C"]
+			id: "23984671F471C732"
+			tasks: [{
+				id: "7ABAF28356A48F64"
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+	]
+}

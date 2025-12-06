@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "superno_technologia"
+	group: ""
+	id: "556F4B7273495E57"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "59086BF19252B26C"
+		tasks: [{
+			id: "38BF4C962F3DCF5D"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

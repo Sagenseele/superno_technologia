@@ -1,0 +1,112 @@
+{
+    "size": "small",
+    "color": "#36235C",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:cow",
+                    "count": 4,
+                    "nbt": {
+                        "AngerTime": 9999999
+                    }
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "add_multiplied_total",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_value",
+                    "value": 1
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:cow",
+                    "rolls": 4
+                }
+            ],
+            "max_wave_time": 900,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:cow",
+                    "count": 3,
+                    "nbt": {
+                        "AngerTime": 9999999
+                    }
+                },
+                {
+                    "entity": "minecraft:cow",
+                    "desc": "name.kubejs.greatmaster_cow",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"name.kubejs.greatmaster_cow\",\"color\":\"red\"}",
+                        "AngerTime": 9999999,
+                        "Glowing": 1,
+                        "bold": true
+                    },
+                    "modifiers": [
+                        {
+                            "attribute": "generic.max_health",
+                            "operation": "add_multiplied_total",
+                            "value": 1
+                        },
+                        {
+                            "attribute": "generic.movement_speed",
+                            "operation": "add_multiplied_total",
+                            "value": 0.25
+                        },
+                        {
+                            "attribute": "generic.step_height",
+                            "operation": "add_value",
+                            "value": 1
+                        }
+                    ],
+                    "count": 1,
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "add_multiplied_total",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_value",
+                    "value": 2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:cow",
+                    "rolls": 4
+                }
+            ],
+            "max_wave_time": 900,
+            "setup_time": 100
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:summon",
+            "entity": {
+                "entity": "minecraft:cow",
+                "count": 2
+            }
+        }
+    ],
+    "rules": {
+        "requires_nearby_players": true
+    }
+}
